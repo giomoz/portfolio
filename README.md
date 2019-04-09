@@ -4,7 +4,7 @@
 
 1. Upload project images to [images folder](https://github.com/giomoz/portfolio/tree/master/projects/images)
 2. Define project content in [projects-data.js](https://github.com/giomoz/portfolio/blob/master/js/projects-data.js).
-Each projec should have this format:
+Each project should have this format:
 ```js
 {
   ref: 'example-ref',                       // set a short name, don't use spaces
