@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Suisse BP web';
+    src: url('../fonts/SuisseBPIntl-Regular.woff2') format('woff2'),
+        url('../fonts/SuisseBPIntl-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Suisse BP web';
+    src: url('../fonts/SuisseBPIntl-Bold.woff2') format('woff2'),
+        url('../fonts/SuisseBPIntl-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -10,8 +26,13 @@
 :root {
   --pagePaddingX: 120px;
   --dotsPaddingX: 64px;
+  
   --introTitleFontSize: 114px;
   --introTitleLineHeight: 100px;
+
+  --bodyFontSize: 20px;
+  --bodyLineHeight: 27px;
+
   --projectMaxWidth: 794px;
 }
 
@@ -19,6 +40,7 @@
   :root {
     --pagePaddingX: 48px;
     --dotsPaddingX: 42px;
+    
     --introTitleFontSize: 64px;
     --introTitleLineHeight: 64px;
   }  
@@ -26,8 +48,10 @@
 
 body {
   margin: 0;
-  font-family: circular;
+  font-family: 'Suisse BP web';
   color: white;
+  font-size: var(--bodyFontSize);
+  line-height: var(--bodyLineHeight);
 }
 
 img {
@@ -67,8 +91,9 @@ img {
 .projectIntroTitle {
   font-size: var(--introTitleFontSize);
   line-height: var(--introTitleLineHeight);
+  letter-spacing: -0.05em;
   z-index: 1;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .projectIntroLinkWrapper {

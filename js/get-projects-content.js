@@ -7,7 +7,9 @@ const getProjectContent = (projectRef) => {
 	
 	document.querySelector(`body`).innerHTML = `
 		<div class="projectContent">
-			<h1>${projectItem.title}</h1>
+			<h1 class="projectTitle">${projectItem.title}</h1>
+
+			<p class="projectDescription">${projectItem.description || ''}</p>
 			
 			${imagesUrls.join('')}
 		</div>

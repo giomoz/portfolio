@@ -13,7 +13,7 @@ const projectIntros = projectsData.map((project) => {
 			<a class="projectIntroLinkWrapper" href="projects/${project.ref}.html">
         <img src="projects/images/${project.introImage}" class="projectIntroImage" />
         <h2 class="projectIntroTitle">
-				${project.title}
+				  ${project.title}
         </h2>
 			</a>
 		</div>
@@ -82,9 +82,7 @@ const setBgColor = () => {
   `
 }
 
-if(screenNumber() === 0) {
-  document.querySelector(`#dot-0`).classList.add('active')
-}
+document.querySelector(`#dot-0`).classList.add('active')
 
 introSection.addEventListener('scroll', () => {
   document.querySelector(`#dot-${screenNumber()}`).classList.add('active')
