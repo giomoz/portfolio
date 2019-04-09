@@ -186,3 +186,8 @@ img {
     left: calc(50vw - 70vw / 2);
   }  
 }
+
+.projectBackLink {
+  color: inherit;
+  text-underline-position: under;
+}

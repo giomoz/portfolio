@@ -10,6 +10,8 @@ const getProjectContent = () => {
 	
 	document.querySelector(`body`).innerHTML = `
 		<div class="projectContent">
+			<a class="projectBackLink" href="../index.html">Back to projects</a>
+
 			<h1 class="projectTitle">${projectItem.title}</h1>
 
 			<p class="projectDescription">${projectItem.description || ''}</p>
