@@ -25,7 +25,7 @@ introSection.innerHTML = projectIntros.join('') + `<div class="projectSpacer"></
 const spacerWidth = document.querySelector('.projectSpacer').clientWidth
 const totalWidth = introSection.scrollWidth - spacerWidth
 //const windowWidth = window.innerWidth
-const windowWidth = totalWidth / 4
+const windowWidth = totalWidth / projectsData.length
 
 body.style.backgroundColor = `
   rgb(${projectsData[0].color.r}, ${projectsData[0].color.g}, ${projectsData[0].color.b})
@@ -90,7 +90,7 @@ introSection.addEventListener('scroll', () => {
   if(screenNumber() > 0) {
     document.querySelector(`#dot-${screenNumber() - 1}`).classList.remove('active')
   }
-  if(screenNumber() < 3) {
+  if(screenNumber() < projectsData.length - 1) {
     document.querySelector(`#dot-${screenNumber() + 1}`).classList.remove('active')
   }
 
