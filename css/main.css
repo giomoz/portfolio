@@ -28,10 +28,10 @@
   --dotsPaddingX: 64px;
   
   --introTitleFontSize: 114px;
-  --introTitleLineHeight: 100px;
+  --introTitleLineHeight: 1;
 
   --bodyFontSize: 20px;
-  --bodyLineHeight: 27px;
+  --bodyLineHeight: 1.4;
 
   --projectMaxWidth: 794px;
 }
@@ -43,6 +43,8 @@
     
     --introTitleFontSize: 64px;
     --introTitleLineHeight: 64px;
+
+    --bodyFontSize: 18px;
   }  
 }
 
