@@ -1,5 +1,8 @@
-const getProjectContent = (projectRef) => {
-	const projectItem = projectsData.find( item => item.ref === projectRef )
+const getProjectContent = () => {
+	const url = window.location.pathname
+  const filename = url.substring(url.lastIndexOf('/')+1, url.lastIndexOf('.html'))
+
+	const projectItem = projectsData.find( item => item.ref === filename )
 
 	const imagesUrls = projectItem.images.map((imagesUrl) => {
 		return `<img class="projectImage" src="../projects/images/${imagesUrl}">`
