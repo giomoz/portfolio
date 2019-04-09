@@ -15,4 +15,4 @@ Each project should have this format:
   description: `This is an example text.`,  // this is the description for the project view
 },
 ```
-3. Go to [projects](https://github.com/giomoz/portfolio/tree/master/projects) folder, duplicate template.html and rename it to the to the `ref` defined previously. 
+3. Go to [projects](https://github.com/giomoz/portfolio/tree/master/projects) folder, duplicate `template.html` and rename it to the to the `ref` defined previously. 
