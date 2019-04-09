@@ -11,7 +11,7 @@ const projectIntros = projectsData.map((project) => {
 	return `
 		<div class="projectIntro">
 			<a class="projectIntroLinkWrapper" href="projects/${project.ref}.html">
-        <img src="images/${project.introImage}" class="projectIntroImage" />
+        <img src="projects/images/${project.introImage}" class="projectIntroImage" />
         <h2 class="projectIntroTitle">
 				${project.title}
         </h2>

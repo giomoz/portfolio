@@ -2,7 +2,7 @@ const getProjectContent = (projectRef) => {
 	const projectItem = projectsData.find( item => item.ref === projectRef )
 
 	const imagesUrls = projectItem.images.map((imagesUrl) => {
-		return `<img class="projectImage" src="../images/${imagesUrl}">`
+		return `<img class="projectImage" src="../projects/images/${imagesUrl}">`
 	})
 	
 	document.querySelector(`body`).innerHTML = `
