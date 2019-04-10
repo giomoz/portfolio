@@ -114,12 +114,17 @@ img {
 }
 
 .projectIntroLink {
-  width: 20vw;
+  width: 0;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  cursor: pointer;  
+  cursor: pointer;
+  z-index: 2;
+}
+
+.projectIntroLink.enabled {
+  width: 20vw;
 }
 
 .dots {

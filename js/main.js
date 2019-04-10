@@ -7,16 +7,17 @@ const dots = projectsData.map((index) => {
 
 document.querySelector('.dots').innerHTML = dots.join('')
 
-const projectIntros = projectsData.map((project) => {
+const projectIntros = projectsData.map((project, index) => {
 	return `
 		<div class="projectIntro">
+      <div class="projectIntroLink" id="projectIntroLink-${index}"></div>
 			<a class="projectIntroLinkWrapper" href="projects/${project.ref}.html">
         <img src="projects/images/${project.introImage}" class="projectIntroImage" />
         <h2 class="projectIntroTitle">
 				  ${project.title}
         </h2>
 			</a>
-		</div>
+    </div>
 	`
 })
 
@@ -83,6 +84,7 @@ const setBgColor = () => {
 }
 
 document.querySelector(`#dot-0`).classList.add('active')
+document.querySelector(`#projectIntroLink-1`).classList.add('enabled')
 
 introSection.addEventListener('scroll', () => {
   document.querySelector(`#dot-${screenNumber()}`).classList.add('active')
@@ -94,7 +96,13 @@ introSection.addEventListener('scroll', () => {
     document.querySelector(`#dot-${screenNumber() + 1}`).classList.remove('active')
   }
 
-  return setBgColor()
+  document.querySelector(`#projectIntroLink-${screenNumber()}`).classList.remove('enabled')
+
+  if(screenNumber() < projectsData.length - 1) {
+    document.querySelector(`#projectIntroLink-${screenNumber() + 1}`).classList.add('enabled')
+  }
+
+  setBgColor()
 })
 
 const scrollToProject = () => {
