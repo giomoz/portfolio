@@ -10,11 +10,15 @@ document.querySelector('.dots').innerHTML = dots.join('')
 const projectIntros = projectsData.map((project, index) => {
 	return `
 		<div class="projectIntro">
-      <div class="projectIntroLink" id="projectIntroLink-${index}"></div>
-			<a class="projectIntroLinkWrapper" href="projects/${project.ref}.html">
-        <img src="projects/images/${project.introImage}" class="projectIntroImage" />
-        <h2 class="projectIntroTitle">
-				  ${project.title}
+			<div class="projectIntroLink" id="projectIntroLink-${index}"></div>
+				<a class="projectIntroLinkWrapper" href="projects/${project.ref}.html">
+
+				<span class="projectIntroImageWrapper">
+          <img src="projects/images/${project.introImage}" class="projectIntroImage" />
+				</span>
+        
+				<h2 class="projectIntroTitle">
+	  			${project.title}
         </h2>
 			</a>
     </div>
