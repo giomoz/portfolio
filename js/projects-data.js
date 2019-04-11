@@ -1,13 +1,5 @@
 const projectsData = [
 	{
-		ref: 'moritz',
-		color: { r: 254, g: 206, b: 0 },
-		title: 'Moritz',
-		introImage: 'moritz.jpeg',
-		images: ['moritz.jpeg'],
-		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
-	},
-	{
 		ref: 'vets-&-clinics',
 		color: { r: 0, g: 114, b: 254 },
 		title: 'Vets & <br>Clinics',
