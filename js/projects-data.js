@@ -36,4 +36,11 @@ const projectsData = [
 		introImage: 'ronie-copy.jpg',
 		images: ['ronie-copy.jpg', 'dog.jpeg'],
 	},
+	{
+		ref: 'chat',
+		color: { r: 0, g: 102, b: 51 },
+		title: 'Movil',
+		introImage: 'chat.png',
+		images: ['chat.png'],
+	},
 ]
