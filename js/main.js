@@ -83,14 +83,17 @@ const setBgColor = () => {
 document.querySelector(`#dot-0`).classList.add('active')
 document.querySelector(`#projectIntroLink-1`).classList.add('enabled')
 
+const getDotNumber = () => Math.round(introScrollLeft() / (totalWidth/projectsData.length))
+
 introSection.addEventListener('scroll', () => {
-  document.querySelector(`#dot-${screenNumber()}`).classList.add('active')
+
+  document.querySelector(`#dot-${getDotNumber()}`).classList.add('active')
   
-  if(screenNumber() > 0) {
-    document.querySelector(`#dot-${screenNumber() - 1}`).classList.remove('active')
+  if(getDotNumber() > 0) {
+    document.querySelector(`#dot-${getDotNumber() - 1}`).classList.remove('active')
   }
-  if(screenNumber() < projectsData.length - 1) {
-    document.querySelector(`#dot-${screenNumber() + 1}`).classList.remove('active')
+  if(getDotNumber() < projectsData.length - 1) {
+    document.querySelector(`#dot-${getDotNumber() + 1}`).classList.remove('active')
   }
 
   document.querySelector(`#projectIntroLink-${screenNumber()}`).classList.remove('enabled')
@@ -100,6 +103,8 @@ introSection.addEventListener('scroll', () => {
   }
 
   setBgColor()
+
+  
 })
 
 const scrollToProject = () => {
