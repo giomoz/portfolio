@@ -28,4 +28,11 @@ const projectsData = [
 		introImage: 'dog.jpeg',
 		images: ['wall.jpeg', 'wall.jpeg'],
 	},
+	{
+		ref: 'ronie',
+		color: { r: 255, g: 206, b: 174 },
+		title: 'Ronie',
+		introImage: 'ronie.jpeg',
+		images: ['ronie.jpeg', 'dog.jpeg'],
+	},
 ]
