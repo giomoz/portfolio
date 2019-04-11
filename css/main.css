@@ -66,6 +66,10 @@ img {
   display: block;
 }
 
+.dynamicBackground {
+  background-color: rgb(var(--r), var(--g), var(--b));
+}
+
 .introSection {
   display: flex;
   overflow: auto;
@@ -192,7 +196,7 @@ img {
 }
 
 @media (max-width: 1000px) {
-  .projectIntroImage {
+  .projectIntroImageWrapper {
     max-width: 70vw;
     left: calc(50vw - 70vw / 2);
   }  
