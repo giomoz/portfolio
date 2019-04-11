@@ -32,7 +32,7 @@ const projectsData = [
 		ref: 'ronie',
 		color: { r: 255, g: 206, b: 174 },
 		title: 'Ronie',
-		introImage: 'ronie.jpeg',
-		images: ['ronie.jpeg', 'dog.jpeg'],
+		introImage: 'ronie.jpg',
+		images: ['ronie.jpg', 'dog.jpeg'],
 	},
 ]
