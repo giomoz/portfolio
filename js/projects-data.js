@@ -40,7 +40,7 @@ const projectsData = [
 		ref: 'movil',
 		color: { r: 0, g: 102, b: 51 },
 		title: 'Movil',
-		introImage: 'chat.png',
-		images: ['chat.png'],
+		introImage: 'chat-app.png',
+		images: ['chat-app.png'],
 	},
 ]
