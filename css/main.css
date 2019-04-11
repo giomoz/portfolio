@@ -171,11 +171,15 @@ img {
   }
 }
 
-.projectIntroImage {
+.projectIntroImageWrapper {
   position: absolute;
   max-width: var(--projectMaxWidth);
   max-height: 100%;
   left: calc(50vw - var(--projectMaxWidth) / 2);
+}
+
+.projectIntroImage {
+  margin: 0 auto;
   mix-blend-mode: screen;
   -webkit-filter: grayscale(1) contrast(1.2);
   filter: grayscale(1) contrast(1.2);
