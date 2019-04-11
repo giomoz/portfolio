@@ -176,6 +176,8 @@ img {
   max-width: var(--projectMaxWidth);
   max-height: 100%;
   left: calc(50vw - var(--projectMaxWidth) / 2);
+  display: block;
+  width: 100%;
 }
 
 .projectIntroImage {
