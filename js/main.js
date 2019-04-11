@@ -32,13 +32,9 @@ const totalWidth = introSection.scrollWidth - spacerWidth
 //const windowWidth = window.innerWidth
 const windowWidth = totalWidth / projectsData.length
 
-body.style.backgroundColor = `
-  rgb(${projectsData[0].color.r}, ${projectsData[0].color.g}, ${projectsData[0].color.b})
-`
-
-document.querySelector('.dynamicBackground').style.backgroundColor = `
-  rgb(${projectsData[0].color.r}, ${projectsData[0].color.g}, ${projectsData[0].color.b})
-`
+document.documentElement.style.setProperty('--r', projectsData[0].color.r)
+document.documentElement.style.setProperty('--g', projectsData[0].color.g)
+document.documentElement.style.setProperty('--b', projectsData[0].color.b)
 
 const introScrollLeft = () => introSection.scrollLeft
 const getScrollPosition = () => introScrollLeft() / windowWidth + 1
@@ -64,27 +60,24 @@ const setBgColor = () => {
     let initialR = projectsData[screenNumber()].color.r
     let finalR = projectsData[screenNextNumber()].color.r
 
-    return initialR - (initialR - finalR) * ratioPosition
+    return Math.floor(initialR - (initialR - finalR) * ratioPosition)
   }
   let getG = () => {
     let initialG = projectsData[screenNumber()].color.g
     let finalG = projectsData[screenNextNumber()].color.g
 
-    return initialG - (initialG - finalG) * ratioPosition
+    return Math.floor(initialG - (initialG - finalG) * ratioPosition)
   }
   let getB = () => {
     let initialB = projectsData[screenNumber()].color.b
     let finalB = projectsData[screenNextNumber()].color.b
 
-    return initialB - (initialB - finalB) * ratioPosition
+    return Math.floor(initialB - (initialB - finalB) * ratioPosition)
   }
 
-  document.querySelector('.dynamicBackground').style.backgroundColor = `
-    rgb(${getR()}, ${getG()}, ${getB()})
-  `
-  body.style.backgroundColor = `
-    rgb(${getR()}, ${getG()}, ${getB()})
-  `
+  document.documentElement.style.setProperty('--r', getR())
+  document.documentElement.style.setProperty('--g', getG())
+  document.documentElement.style.setProperty('--b', getB())
 }
 
 document.querySelector(`#dot-0`).classList.add('active')
