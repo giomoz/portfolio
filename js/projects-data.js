@@ -1,10 +1,10 @@
 const projectsData = [
 	{
-		ref: 'vets-&-clinics',
-		color: { r: 0, g: 114, b: 254 },
-		title: 'Vets & <br>Clinics',
-		introImage: 'panda.jpeg',
-		images: ['wall.jpeg', 'wall.jpeg'],
+		ref: 'moritz',
+		color: { r: 254, g: 206, b: 0 },
+		title: 'Moritz',
+		introImage: 'moritz_portada.png',
+		images: ['moritz_01.png', 'moritz_02.png', 'moritz_03.png','moritz_04.png'],
 	},
 	{
 		ref: 'tomato',
