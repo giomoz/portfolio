@@ -7,12 +7,12 @@ const projectsData = [
 		images: ['moritz_01.png', 'moritz_02.png', 'moritz_03.png','moritz_04.png'],
 	},
 	{
-		ref: 'tomato',
-		color: { r: 183, g: 48, b: 44 },
-		title: 'Tomato',
-		introImage: 'penguin.jpeg',
-		images: ['tomato.jpeg', 'wall.jpeg'],
-		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
+		ref: 'brafa',
+		color: { r: 255, g: 52, b: 93 },
+		title: 'Brafa </b> B-champion',
+		introImage: 'brafa_portada.png',
+		images: ['brafa_01.png', 'brafa_02.png', 'brafa_03.png', 'brafa_04.png'],
+		
 	},
 	{
 		ref: 'rabano',
@@ -20,6 +20,7 @@ const projectsData = [
 		title: 'Rabano',
 		introImage: 'dog.jpeg',
 		images: ['wall.jpeg', 'wall.jpeg'],
+		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
 	},
 	{
 		ref: 'ronie',
