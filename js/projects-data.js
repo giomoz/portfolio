@@ -9,7 +9,7 @@ const projectsData = [
 	{
 		ref: 'brafa',
 		color: { r: 255, g: 52, b: 93 },
-		title: 'Brafa <b> B-Champion </b>',
+		title: 'Brafa <b>B-Champion</b>',
 		introImage: 'brafa_portada.png',
 		images: ['brafa_01.png', 'brafa_02.png', 'brafa_03.png', 'brafa_04.png'],
 		
