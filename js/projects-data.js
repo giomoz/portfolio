@@ -32,7 +32,7 @@ const projectsData = [
 	{
 		ref: 'bye',
 		color: { r: 109, g: 185, b: 190 },
-		title: 'thats it <br>for now</br>',
+		title: 'Thats it, for now <br>Thank you!</br>',
 		introImage: 'bye.gif',
 	},
 ]
