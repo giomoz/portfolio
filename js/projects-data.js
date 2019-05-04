@@ -13,6 +13,7 @@ const projectsData = [
 		title: 'Brafa <br>B-Champion</br>',
 		introImage: 'brafa_portada.png',
 		images: ['brafa_01.png', 'brafa_02.png', 'brafa_03.png', 'brafa_04.png'],
+		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
 		
 	},
 
