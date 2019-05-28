@@ -162,6 +162,7 @@ a {
   bottom: var(--dotsPaddingX);
   display: flex;
 }
+
 .dot {
   width: 24px;
   height: 24px;
