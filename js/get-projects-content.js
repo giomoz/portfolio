@@ -24,5 +24,7 @@ const getProjectContent = () => {
     rgb(${projectItem.color.r}, ${projectItem.color.g}, ${projectItem.color.b})
   `
 
-  document.querySelector('#headTitle').innerHTML = projectItem.title
+  const filteredTitle = projectItem.title.replace("<br>", "")
+
+  document.querySelector('#headTitle').innerHTML = filteredTitle
 }
