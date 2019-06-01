@@ -23,10 +23,10 @@ const projectsData = [
 		title: 'Puratos',
 		introImage: 'puratos_portada.png',
 		images: ['puratos_01.png', 'puratos_02.png', 'puratos_03.png', 'puratos_04.png','puratos_05.png','puratos_06.png'],
-		description: `n a professional context it often happens that private or corporate clients corder a pub	
-        },
+		description: `n a professional context it often happens that private or corporate clients corder a pub`
+  },
 	
-        {
+	{
 		ref: 'bye',
 		color: { r: 109, g: 185, b: 190 },
 		title: 'That&#8217s it, for now... <br>Thank you!',
