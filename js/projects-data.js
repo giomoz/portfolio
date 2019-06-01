@@ -16,6 +16,14 @@ const projectsData = [
 		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
 		
 	},
+	{
+		ref: 'vets',
+		color: { r: 11, g: 35, b: 63},
+		title: 'Vets & <br>Clinics',
+		introImage: 'vets_portada.png',
+		images: ['vets_01.png', 'vets_02.png', 'vets_03.png','vets_04.png','vets_05.png'],
+		description: `n a professional context it often happens that private or corporate clients corder a pub n a professional context it often happens that private or corporate clients corder a pubn a professional context it often happens that private or corporate clients corder a pub`
+  },
 
 	{
 		ref: 'puratos',
