@@ -22,7 +22,7 @@ const projectsData = [
 		color: { r: 239, g: 190, b: 38 },
 		title: 'Puratos',
 		introImage: 'puratos_portada.png',
-		images: ['puratos_01.png', 'puratos_02.png', 'puratos_03.png', 'puratos_04.png','puratos_05.png','puratos_06.png'],
+		images: ['puratos_01.png', 'puratos_02.png', 'puratos_03.png','puratos_05.png','puratos_06.png'],
 		description: `n a professional context it often happens that private or corporate clients corder a pub`
   },
 	
