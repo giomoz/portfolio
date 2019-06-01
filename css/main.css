@@ -238,6 +238,11 @@ a {
   background-color: #2685E1;
 }
 
+.contactPage h1, .contactPage .h1  {
+  font-size: var(--introTitleFontSize);
+  line-height: var(--introTitleLineHeight);
+}
+
 .contactPageContent {
   padding: 128px var(--pagePaddingX);
 }
