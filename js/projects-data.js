@@ -19,7 +19,8 @@ const projectsData = [
 
 	{
 		ref: 'puratos',
-		color: { r: 239, g: 190, b: 38 },
+		color: { r: 214, g: 171, b: 17
+		      },
 		title: 'Puratos',
 		introImage: 'puratos_portada.png',
 		images: ['puratos_01.png', 'puratos_02.png', 'puratos_03.png','puratos_05.png','puratos_06.png'],
