@@ -8,6 +8,14 @@ const projectsData = [
 		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
 	},
 	{
+		ref: 'embarazo',
+		color: { r: 254, g: 206, b: 0 },
+		title: 'Mi embarazo <br>al día',
+		introImage: 'embarazo_portada.png',
+		images: ['embarazo_01.gif', 'embarazo_02.png', 'embarazo_03.png','embarazo_04.png','embarazo_05.png','embarazo_06.png','embarazo_07.png','embarazo_08.png'],
+		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
+	},
+	{
 		ref: 'brafa',
 		color: { r: 255, g: 52, b: 93 },
 		title: 'Brafa <br>B-Champion',
