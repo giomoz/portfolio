@@ -234,10 +234,10 @@ a {
   text-underline-position: under;
 }
 
-.aboutPage {
+.contactPage {
   background-color: #2685E1;
 }
 
-.aboutPageContent {
+.contactPageContent {
   padding: 128px var(--pagePaddingX);
 }

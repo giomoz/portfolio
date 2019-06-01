@@ -18,7 +18,7 @@ const getProjectContent = () => {
 				</svg>
 	    </a>
 	    <div class="menuSection">
-	      <a href="../about.html" class="menuLink">About</a>
+	      <a href="../contact.html" class="menuLink">Contact</a>
 	    </div>
 	  </header>
 
