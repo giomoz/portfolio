@@ -18,14 +18,15 @@ const projectsData = [
 	},
 
 	{
-		ref: 'ronie',
-		color: { r: 255, g: 206, b: 174 },
-		title: 'Ronie',
-		introImage: 'ronie-copy.jpg',
-		images: ['ronie-copy.jpg', 'dog.jpeg'],
-		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
-	},
-	{
+		ref: 'puratos',
+		color: { r: 239, g: 190, b: 38 },
+		title: 'Puratos',
+		introImage: 'puratos_portada.png',
+		images: ['puratos_01.png', 'puratos_02.png', 'puratos_03.png', 'puratos_04.png','puratos_05.png','puratos_06.png'],
+		description: `n a professional context it often happens that private or corporate clients corder a pub	
+        },
+	
+        {
 		ref: 'bye',
 		color: { r: 109, g: 185, b: 190 },
 		title: 'That&#8217s it, for now... <br>Thank you!',
