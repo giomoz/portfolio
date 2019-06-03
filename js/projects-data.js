@@ -40,7 +40,7 @@ const projectsData = [
 		title: 'Puratos',
 		introImage: 'puratos_portada.png',
 		images: ['puratos_01.png', 'puratos_02.png', 'puratos_03.png','puratos_05.png','puratos_06.png'],
-		description: `Puratos is an international group, leader in bakery, patisserie and chocolate sectors. They needed a platform dedicated to the needs of their commercial team with tools such as a products catalogue, recipes, rates, trainings and much more. In addition, in order to motivate the employees to use the app, it features interactive quizzes that allow them to earn points and coins that they can exchange for a list of prizes.<br>Developed in collaboration with iBoo Mobile.`,
+		description: `Puratos is an international group, leader in bakery, patisserie and chocolate sectors. <br>They needed a platform dedicated to the needs of their commercial team with tools such as a products catalogue, recipes, rates, trainings and much more. In addition, in order to motivate the employees to use the app, it features interactive quizzes that allow them to earn points and coins that they can exchange for a list of prizes.<br>Developed in collaboration with iBoo Mobile.`,
   },
 	
 	{
