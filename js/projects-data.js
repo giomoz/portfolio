@@ -21,7 +21,7 @@ const projectsData = [
 		title: 'Brafa <br>B-Champion',
 		introImage: 'brafa_portada.png',
 		images: ['brafa_01.png', 'brafa_02.png', 'brafa_03.png', 'brafa_04.png'],
-		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
+		description: `Escuela Deportiva Brafa its a sports club that aim to teach children of all ages social and educational values through sports. <br>The app they needed its a tool to help teachers, trainers and parents to keep themselves updated about the kids' progress in their path to learn and comprehend these values. <br>Developed in collaboration with iBoo Mobile.`,
 		
 	},
 	{
