@@ -13,7 +13,7 @@ const projectsData = [
 		title: 'Mi embarazo <br>al día',
 		introImage: 'embarazo_portada.png',
 		images: ['embarazo_01.gif', 'embarazo_02.png', 'embarazo_03.png','embarazo_04.png','embarazo_05.png','embarazo_06.png','embarazo_07.png','embarazo_08.png'],
-		description: `App designed for the international brand Hero. <br>They needed a platform to guide mothers through the different stages of pregnancy, with personalized information for every user and its precise development period. The app comes with functionalities that add value such as exercises, healthy diet advice, list of names and their meanings, a selfie gallery, contraction counter, and much more. <br>Developed in collaboration with iBoo Mobile. 
+		description: `App designed for the international brand Hero. <br>They needed a platform to guide mothers through the different stages of pregnancy, with personalized information for every user and its precise development period. The app comes with functionalities that add value such as exercises, healthy diet advice, list of names and their meanings, a selfie gallery, contraction counter, and much more. <br>Developed in collaboration with iBoo Mobile.', 
 	},
 	{
 		ref: 'brafa',
