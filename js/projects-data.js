@@ -30,7 +30,7 @@ const projectsData = [
 		title: 'Vets & <br>Clinics',
 		introImage: 'vets_portada.png',
 		images: ['vets_01.png', 'vets_02.png', 'vets_03.png','vets_04.png','vets_05.png'],
-		description: `n a professional context it often happens that private or corporate clients corder a pub n a professional context it often happens that private or corporate clients corder a pubn a professional context it often happens that private or corporate clients corder a pub`
+		description: `Affinity is a leader company in animal nutrition. <br> One of their 'side projects' its Vets&Clinics, a blog for veterinarians, in which they can find articles, documents, videos and news about the world of cats and dogs. <br>They asked us to redesign the blog, in order to make it easier to read and to navigate. The focus of the blog is on the articles, so the most important goal was to facilitate the readability and to create a clear and totally responsive design. <br>Developed in collaboration with iBoo Mobile.`,
   },
 
 	{
