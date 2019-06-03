@@ -9,7 +9,7 @@ const projectsData = [
 	},
 	{
 		ref: 'embarazo',
-		color: { r: 139, g: 189, b: 98 },
+		color: { r: 73, g: 187, b: 116 },
 		title: 'Mi embarazo <br>al día',
 		introImage: 'embarazo_portada.png',
 		images: ['embarazo_01.gif', 'embarazo_02.png', 'embarazo_03.png','embarazo_04.png','embarazo_05.png','embarazo_06.png','embarazo_07.png','embarazo_08.png'],
