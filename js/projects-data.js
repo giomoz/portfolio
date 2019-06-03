@@ -5,7 +5,7 @@ const projectsData = [
 		title: 'Moritz',
 		introImage: 'moritz_portada.png',
 		images: ['moritz_01.png', 'moritz_02.png', 'moritz_03.png','moritz_04.png'],
-		description: `n a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that's filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content.`,
+		description: `Moritz is the second largest beer factory in Barcelona area. For a in-house prize contest, they asked us to create a website where the employees could check their progress in the contest, their ranking position, submissions from other participants, and so on. What the brand asked us was to keep the design simple,clear and consistent with Moritz’s look and feel. <br>Made with iBoo Mobile.`,
 	},
 	{
 		ref: 'embarazo',
